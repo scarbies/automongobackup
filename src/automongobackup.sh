@@ -116,13 +116,13 @@ LATEST="yes"
 LATESTLINK="yes"
 
 # Use oplog for point-in-time snapshotting.
-OPLOG="yes"
+OPLOG="no"
 
 # Choose other Server if is Replica-Set Master
 REPLICAONSLAVE="no"
 
 # Allow DBUSERNAME without DBAUTHDB
-REQUIREDBAUTHDB="yes"
+REQUIREDBAUTHDB="no"
 
 # Maximum files of a single backup used by split - leave empty if no split required
 # MAXFILESIZE=""
