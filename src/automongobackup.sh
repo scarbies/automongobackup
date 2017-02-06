@@ -88,7 +88,7 @@ HOURLYRETENTION=24
 
 # Do you want to do daily backups? How long do you want to keep them?
 DODAILY="yes"
-DAILYRETENTION=0
+DAILYRETENTION=14
 
 # Which day do you want weekly backups? (1 to 7 where 1 is Monday)
 DOWEEKLY="yes"
@@ -97,7 +97,7 @@ WEEKLYRETENTION=4
 
 # Do you want monthly backups? How long do you want to keep them?
 DOMONTHLY="yes"
-MONTHLYRETENTION=4
+MONTHLYRETENTION=12
 
 # ============================================================
 # === ADVANCED OPTIONS ( Read the doc's below for details )===
@@ -119,7 +119,7 @@ LATESTLINK="yes"
 OPLOG="yes"
 
 # Choose other Server if is Replica-Set Master
-REPLICAONSLAVE="yes"
+REPLICAONSLAVE="no"
 
 # Allow DBUSERNAME without DBAUTHDB
 REQUIREDBAUTHDB="yes"
